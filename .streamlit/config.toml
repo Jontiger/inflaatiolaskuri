@@ -5,7 +5,7 @@ showSidebarNavigation = false
 [theme]
 base="light"
 primaryColor="#009688"
-backgroundColor="#0E1117"
-secondaryBackgroundColor="#1E2A25"
-textColor="#E0F2F1"
+backgroundColor="#F6F9F8"
+secondaryBackgroundColor="#E0F2F1"
+textColor="#003333"
 font="sans serif"
