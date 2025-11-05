@@ -102,7 +102,7 @@ with st.expander("Ohjeet"):
 # 🧮 4. DATAN LUKEMINEN JA KATEGORIAT
 # =====================================================
 
-df = pd.read_csv("cpi_master.csv", encoding="utf-8")
+df = pd.read_csv("cpi_master.csv", sep=";", encoding="latin-1")
 
 
 
@@ -490,6 +490,7 @@ Sovelluksen inflaatiolaskenta perustuu Tilastokeskuksen viralliseen kuluttajahin
 
 
 """)
+
 
 
 
