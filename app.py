@@ -102,8 +102,16 @@ with st.expander("Ohjeet"):
 # 🧮 4. DATAN LUKEMINEN JA KATEGORIAT
 # =====================================================
 
-df = pd.read_csv("cpi_master.csv", sep=";", encoding="latin-1")
+import csv
 
+try:
+    with open("cpi_master.csv", encoding="latin-1") as f:
+        dialect = csv.Sniffer().sniff(f.read(2048))
+        f.seek(0)
+        df = pd.read_csv(f, encoding="latin-1", sep=dialect.delimiter)
+except Exception as e:
+    st.error(f"Virhe CSV-tiedoston lukemisessa: {e}")
+    st.stop()
 
 
 df["Päivämäärä"] = pd.to_datetime(df["Päivämäärä"], format="%d.%m.%Y", errors="coerce")
@@ -490,6 +498,7 @@ Sovelluksen inflaatiolaskenta perustuu Tilastokeskuksen viralliseen kuluttajahin
 
 
 """)
+
 
 
 
