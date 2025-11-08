@@ -75,15 +75,6 @@ with st.expander("Ohjeet"):
     Lukujen ei tarvitse olla tarkkoja. Jos et tiedä tarkasti kulutustasi, voit antaa arvion.  
     Jos et ole käyttänyt rahaa johonkin kategoriaan, sen voi jättää nollaksi ilman että se vaikuttaa laskennan luotettavuuteen.  
 
-    Näet lopuksi kolme keskeistä lukua:  
-
-    - **Henkilökohtainen inflaatio:** kertoo, kuinka paljon oma hintatasosi on muuttunut kulutustottumustesi perusteella.  
-    - **Yleinen inflaatio:** kuvaa Suomen keskimääräistä hintojen nousua.  
-    - **Reaalipalkka:** näyttää palkkasi ostovoiman inflaation vaikutuksen jälkeen.  
-
-    Kortit esittävät ajankohtaiset luvut, ja niiden avulla voit arvioida,  
-    onko oma inflaatiokehityksesi ollut hitaampaa vai nopeampaa kuin Suomen keskiarvo.  
-    Jos oma inflaatio on korkeampi, kulutuskorisi on kallistunut enemmän kuin yleinen hintataso.  
 
     ---
 
@@ -532,6 +523,7 @@ Sovelluksen inflaatiolaskenta perustuu Tilastokeskuksen viralliseen kuluttajahin
 
 **Pohjola, Matti (2019).** *Taloustieteen oppikirja.* (s. 198)
 """)
+
 
 
 
