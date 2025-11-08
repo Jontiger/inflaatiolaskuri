@@ -65,7 +65,12 @@ with st.expander("Mikä on inflaatio?"):
         Se lasketaan kuluttajahintaindeksin avulla, jossa eri hyödykkeille annetaan painoarvot sen mukaan, kuinka suuren osan ne vievät kotitalouksien kokonaiskuluista.  
         Kun näiden hyödykkeiden hinnanmuutokset yhdistetään painojen mukaisesti, saadaan yksi prosenttiluku, joka kertoo, kuinka paljon hintataso on keskimäärin noussut koko taloudessa.
 
+        Samaa periaatetta voidaan soveltaa henkilökohtaiseen inflaatioon.  
+        Siinä painot määräytyvät käyttäjän omien kulutustottumusten perusteella, jolloin tulos kuvaa, miten juuri hänen hintatasonsa on muuttunut verrattuna yleiseen inflaatioon.  
+
+        Koko suomen talouden hintojen nouseminen ei tarkoita sitä, että juuri sinun menosi olisivat nousseet samalla tavalla.
     """)
+
 
 
 with st.expander("Ohjeet"):
@@ -532,6 +537,7 @@ Sovelluksen inflaatiolaskenta perustuu Tilastokeskuksen viralliseen kuluttajahin
 
 **Pohjola, Matti (2019).** *Taloustieteen oppikirja.* (s. 198)
 """)
+
 
 
 
