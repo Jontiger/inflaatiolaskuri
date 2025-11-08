@@ -84,7 +84,7 @@ with st.expander("Ohjeet"):
     Tämä laskentatapa kuitenkin antaa luotettavan yleiskuvan siitä, miten oma hintatasosi on kehittynyt.  
     Kategoriat edustavat tavallisimpia kuukausittaisia kulutusalueita.  
 
-    <p style='color:#ffb84d; font-weight:bold;'>Tämän applikaation data ulottuu syyskuuhun 2025 asti.</p>
+    <p style='color:#ffb84d; font-weight:bold;'>Tämän applikaation data ulottuu syyskuuhun 2025 asti. Sen antaa tuloksesi 2025 syyskuulle ja vertaa hintoja 2024 syyskuun hintoihin.</p>
     """, unsafe_allow_html=True)
 
 
@@ -523,6 +523,7 @@ Sovelluksen inflaatiolaskenta perustuu Tilastokeskuksen viralliseen kuluttajahin
 
 **Pohjola, Matti (2019).** *Taloustieteen oppikirja.* (s. 198)
 """)
+
 
 
 
