@@ -132,15 +132,47 @@ col1.subheader("Kuukausittaiset kulut (€)")
 kulut = {}
 
 selitteet = {
-    "ASUMINEN, VESI, SÄHKÖ, KAASU JA MUUT POLTTOAINEET": "Vuokra tai lainanlyhennys, sähkö, vesi, lämmitys ja polttoaineet.",
-    "ELINTARVIKKEET JA ALKOHOLITTOMAT JUOMAT": "Ruokaostokset ja alkoholittomat juomat, kuten vesi, mehut ja kahvi.",
-    "LIIKENNE": "Autoilu, polttoaine, julkinen liikenne ja ajoneuvoverot.",
-    "VIESTINTÄ": "Puhelinliittymät, internet ja muut viestintäpalvelut.",
-    "KULTTUURI JA VAPAA-AIKA": "Elokuvat, kirjat, musiikki, pelit, harrastukset ja urheilu.",
-    "RAVINTOLAT JA HOTELLIT": "Ravintola- ja kahvilakulut sekä majoitukset.",
-    "VAATETUS JA JALKINEET": "Vaatteet, kengät ja asusteet.",
-    "ALKOHOLIJUOMAT, TUPAKKA": "Alkoholi ja tupakkatuotteet."
+    "ASUMINEN, VESI, SÄHKÖ, KAASU JA MUUT POLTTOAINEET": (
+        "Asumisen ja energiankulutuksen kustannukset. "
+        "Sisältää vuokran, lainanlyhennykset, vastikkeet, sähkön, veden, lämmityksen, maakaasun ja muut asumiseen liittyvät polttoaineet."
+    ),
+
+    "ELINTARVIKKEET JA ALKOHOLITTOMAT JUOMAT": (
+        "Sisältää kaikki ruokaan ja alkoholittomiin juomiin liittyvät ostokset. "
+        
+    ),
+
+    "LIIKENNE": (
+        "Liikkumiseen liittyvät menot. "
+        "Sisältää auton hankinnan, polttoaineet, huollot, vakuutukset ja julkisen liikenteen."
+    ),
+
+    "VIESTINTÄ": (
+        "Yhteydenpitoon liittyvät palvelut. "
+        "Sisältää matkapuhelin- ja internetliittymät, puhelinlaitteet ja postipalvelut."
+    ),
+
+    "KULTTUURI JA VAPAA-AIKA": (
+        "Harrastukset, viihde ja vapaa-aika. "
+        "Sisältää elokuvat, kirjat, pelit, urheilun, musiikin, harrastusvälineet, kulttuuripalvelut, lemmikit ja kotimaan matkailun."
+    ),
+
+    "RAVINTOLAT JA HOTELLIT": (
+        "Ravintola- ja kahvilakulut sekä majoitus. "
+        "Sisältää kodin ulkopuolisen ruokailun, baarit ja hotellit."
+    ),
+
+    "VAATETUS JA JALKINEET": (
+        "Vaatteet, kengät ja asusteet. "
+        "Sisältää myös pesula- ja korjauspalvelut."
+    ),
+
+    "ALKOHOLIJUOMAT, TUPAKKA": (
+        "Alkoholi ja tupakkatuotteet. "
+        "Sisältää oluen, viinin, väkevät alkoholijuomat, savukkeet ja muut tupakkatuotteet."
+    )
 }
+
 
 for kategoria in kategoriat:
     kulut[kategoria] = col1.number_input(
@@ -502,6 +534,7 @@ Sovelluksen inflaatiolaskenta perustuu Tilastokeskuksen viralliseen kuluttajahin
 
 
 """)
+
 
 
 
