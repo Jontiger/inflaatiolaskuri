@@ -61,11 +61,10 @@ with st.expander("Mikä on inflaatio?"):
         Samalla on mahdollista, että 10 eurolla saa edelleen saman määrän jauhelihaa kuin aiemmin. Tämä osoittaa, että inflaatio vaikuttaa eri tuotteisiin eri tavoin.
 
         **Miksi inflaatiota silti mitataan yhdellä prosenttiluvulla?**  
-        Kokonaisinflaatio lasketaan kaikkien tuotteiden ja palveluiden hintojen muutosten perusteella.  
-        Tuloksena saadaan painotettu keskiarvo, joka kuvaa hintojen yleistä muutosta koko taloudessa.
+        Yleinen inflaatio kuvaa kotitalouksien kulutuksen keskimääräistä hinnanmuutosta.  
+        Se lasketaan kuluttajahintaindeksin avulla, jossa eri hyödykkeille annetaan painoarvot sen mukaan, kuinka suuren osan ne vievät kotitalouksien kokonaiskuluista.  
+        Kun näiden hyödykkeiden hinnanmuutokset yhdistetään painojen mukaisesti, saadaan yksi prosenttiluku, joka kertoo, kuinka paljon hintataso on keskimäärin noussut koko taloudessa.
 
-        Tätä laskentaperiaatetta muuttaen on mahdollista laskea sinulle oma henkilökohtainen inflaatio.  
-        Se kertoo, ovatko omat kulutuksesi kallistuneet verrattuna yleiseen hintatasoon.
     """)
 
 
@@ -533,6 +532,7 @@ Sovelluksen inflaatiolaskenta perustuu Tilastokeskuksen viralliseen kuluttajahin
 
 **Pohjola, Matti (2019).** *Taloustieteen oppikirja.* (s. 198)
 """)
+
 
 
 
