@@ -53,20 +53,21 @@ st.markdown("<h1 class='center'>Inflaatiolaskuri</h1>", unsafe_allow_html=True)
 
 with st.expander("Mikä on inflaatio?"):
     st.markdown("""
-    **Inflaatio** tarkoittaa yleistä hintatason nousua taloudessa.  
-    Kun hinnat nousevat, samalla rahalla saa vähemmän tuotteita ja palveluita kuin ennen.
+        **Inflaatio** tarkoittaa yleistä hintatason nousua taloudessa.  
+        Kun hinnat nousevat, samalla rahalla saa vähemmän tuotteita ja palveluita kuin ennen.
 
-    Kaikki hinnat eivät kuitenkaan muutu samassa suhteessa.
-    Esimerkiksi jos vuosi sitten sait 10 eurolla ostettua paketin kahvia, mutta sama summa ei enää riitä tänään, se johtuu kahvin hinnan noususta. 
-    Samalla on mahdollista, että 10 eurolla saa edelleen saman määrän jauhelihaa kuin aiemmin. Tämä osoittaa, että inflaatio vaikuttaa eri tuotteisiin eri tavoin.
+        Kaikki hinnat eivät kuitenkaan muutu samassa suhteessa.  
+        Esimerkiksi jos vuosi sitten sait 10 eurolla ostettua paketin kahvia, mutta sama summa ei enää riitä tänään, se johtuu kahvin hinnan noususta.  
+        Samalla on mahdollista, että 10 eurolla saa edelleen saman määrän jauhelihaa kuin aiemmin. Tämä osoittaa, että inflaatio vaikuttaa eri tuotteisiin eri tavoin.
 
-    Miksi inflaatiota silti mitataan yhdellä prosenttiluvulla?  
-    Kokonaisinflaatio lasketaan kaikkien tuotteiden ja palveluiden hintojen muutosten perusteella.  
-    Tuloksena saadaan painotettu keskiarvo, joka kuvaa hintojen yleistä muutosta koko taloudessa.
+        **Miksi inflaatiota silti mitataan yhdellä prosenttiluvulla?**  
+        Kokonaisinflaatio lasketaan kaikkien tuotteiden ja palveluiden hintojen muutosten perusteella.  
+        Tuloksena saadaan painotettu keskiarvo, joka kuvaa hintojen yleistä muutosta koko taloudessa.
 
-    Tätä laskentaperiaatetta muuttaen on mahdollista laskea sinulle oma henkilökohtainen inflaatio.  
-    Se kertoo, onko omat kulutuksesi kallistuneet verrattuna yleiseen hintatasoon.
+        Tätä laskentaperiaatetta muuttaen on mahdollista laskea sinulle oma henkilökohtainen inflaatio.  
+        Se kertoo, ovatko omat kulutuksesi kallistuneet verrattuna yleiseen hintatasoon.
     """)
+
 
 with st.expander("Ohjeet"):
     st.markdown("""
@@ -532,6 +533,7 @@ Sovelluksen inflaatiolaskenta perustuu Tilastokeskuksen viralliseen kuluttajahin
 
 **Pohjola, Matti (2019).** *Taloustieteen oppikirja.* (s. 198)
 """)
+
 
 
 
