@@ -63,9 +63,7 @@ with st.expander("Mikä on inflaatio?"):
         **Miksi inflaatiota silti mitataan yhdellä prosenttiluvulla?**  
         Yleinen inflaatio kuvaa kotitalouksien kulutuksen keskimääräistä hinnanmuutosta.  
         Se lasketaan kuluttajahintaindeksin avulla, jossa eri hyödykkeille annetaan painoarvot sen mukaan, kuinka suuren osan ne vievät kotitalouksien kokonaiskuluista.  
-        Kun näiden hyödykkeiden hinnanmuutokset yhdistetään painojen mukaisesti, saadaan yksi prosenttiluku, joka kertoo, kuinka paljon hintataso on keskimäärin noussut koko taloudessa.
-
-        Koko suomen talouden hintojen nouseminen ei tarkoita sitä, että juuri sinun menosi olisivat nousseet samalla tavalla.
+        Kun näiden hyödykkeiden hinnanmuutokset yhdistetään painojen mukaisesti, saadaan yksi prosenttiluku, joka kertoo, kuinka paljon hintataso on keskimäärin noussut koko taloudessa. Koko suomen talouden hintojen nouseminen ei tarkoita sitä, että juuri sinun menosi olisivat nousseet samalla tavalla.
     """)
 
 
@@ -534,6 +532,7 @@ Sovelluksen inflaatiolaskenta perustuu Tilastokeskuksen viralliseen kuluttajahin
 
 **Pohjola, Matti (2019).** *Taloustieteen oppikirja.* (s. 198)
 """)
+
 
 
 
