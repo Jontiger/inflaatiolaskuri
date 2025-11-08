@@ -527,13 +527,17 @@ Voit piilottaa tai lisätä viivoja alla olevasta valikosta valitsemalla haluama
 
 with st.expander("Lähteet"):
     st.markdown("""
-Sovelluksen inflaatiolaskenta perustuu Tilastokeskuksen viralliseen kuluttajahintaindeksiin (CPI).
+Sovelluksen inflaatiolaskenta perustuu Tilastokeskuksen viralliseen kuluttajahintaindeksiin (CPI) sekä taloustieteen kirjallisuuteen.
 
 **Tilastokeskus** – [Kuluttajahintaindeksi (CPI)](https://stat.fi/tilasto/khi)  
+
+**Pohjola, Matti (2019).** *Taloustieteen oppikirja.* Helsinki: Gaudeamus. (s. 198)
+""")
 
 
 
 """)
+
 
 
 
