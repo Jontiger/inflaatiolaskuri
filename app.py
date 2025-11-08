@@ -73,7 +73,7 @@ with st.expander("Ohjeet"):
     Syötä kuukausittaiset menosi eri kulutuskategorioihin, jotta laskuri voi arvioida henkilökohtaisen inflaatiosi.  
     Sovellus hyödyntää Tilastokeskuksen kuluttajahintaindeksiä ja vertaa kulutustietojasi yleiseen hintatason kehitykseen arvioidakseen, miten hinnanmuutokset ovat vaikuttaneet ostovoimaasi.  
     Lukujen ei tarvitse olla tarkkoja. Jos et tiedä tarkasti kulutustasi, voit antaa arvion.  
-    Jos et ole käyttänyt rahaa johonkin kategoriaan, sen voi jättää nollaksi ilman että se vaikuttaa laskennan luotettavuuteen.  
+    Jos et ole käyttänyt rahaa johonkin kategoriaan, sen voi jättää nollaksi. Se vaikuttaa laskennan luotettavuuteen.  
 
 
     ---
@@ -523,6 +523,7 @@ Sovelluksen inflaatiolaskenta perustuu Tilastokeskuksen viralliseen kuluttajahin
 
 **Pohjola, Matti (2019).** *Taloustieteen oppikirja.* (s. 198)
 """)
+
 
 
 
