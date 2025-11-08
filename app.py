@@ -56,10 +56,8 @@ with st.expander("Mikä on inflaatio?"):
     **Inflaatio** tarkoittaa yleistä hintatason nousua taloudessa.  
     Kun hinnat nousevat, samalla rahalla saa vähemmän tuotteita ja palveluita kuin ennen.
 
-    Kaikki hinnat eivät kuitenkaan muutu samassa suhteessa.  
-    Esimerkiksi jos vuosi sitten sait 10 eurolla ostettua paketin kahvia ja 10 euroa ei enää riitä tänään,  
-    se johtuu kahvin hinnan noususta. Samalla on mahdollista, että saat 10 eurolla edelleen saman määrän jauhelihaa mitä ennen.  
-    Tämä kertoo siitä, että inflaatio vaikuttaa eri tuotteisiin eri tavalla.
+    Kaikki hinnat eivät kuitenkaan muutu samassa suhteessa.
+    Esimerkiksi jos vuosi sitten sait 10 eurolla ostettua paketin kahvia, mutta sama summa ei enää riitä tänään, se johtuu kahvin hinnan noususta. Samalla on mahdollista, että 10 eurolla saa edelleen saman määrän jauhelihaa kuin aiemmin. Tämä osoittaa, että inflaatio vaikuttaa eri tuotteisiin eri tavoin.
 
     Miksi inflaatiota silti mitataan yhdellä prosenttiluvulla?  
     Kokonaisinflaatio lasketaan kaikkien tuotteiden ja palveluiden hintojen muutosten perusteella.  
@@ -533,6 +531,7 @@ Sovelluksen inflaatiolaskenta perustuu Tilastokeskuksen viralliseen kuluttajahin
 
 **Pohjola, Matti (2019).** *Taloustieteen oppikirja.* (s. 198)
 """)
+
 
 
 
