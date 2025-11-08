@@ -130,10 +130,24 @@ col1, col2 = st.columns([2, 1])
 # --- Kulut ---
 col1.subheader("Kuukausittaiset kulut (€)")
 kulut = {}
+
+selitteet = {
+    "ASUMINEN, VESI, SÄHKÖ, KAASU JA MUUT POLTTOAINEET": "Vuokra tai lainanlyhennys, sähkö, vesi, lämmitys ja polttoaineet.",
+    "ELINTARVIKKEET JA ALKOHOLITTOMAT JUOMAT": "Ruokaostokset ja alkoholittomat juomat, kuten vesi, mehut ja kahvi.",
+    "LIIKENNE": "Autoilu, polttoaine, julkinen liikenne ja ajoneuvoverot.",
+    "VIESTINTÄ": "Puhelinliittymät, internet ja muut viestintäpalvelut.",
+    "KULTTUURI JA VAPAA-AIKA": "Elokuvat, kirjat, musiikki, pelit, harrastukset ja urheilu.",
+    "RAVINTOLAT JA HOTELLIT": "Ravintola- ja kahvilakulut sekä majoitukset.",
+    "VAATETUS JA JALKINEET": "Vaatteet, kengät ja asusteet.",
+    "ALKOHOLIJUOMAT, TUPAKKA": "Alkoholi ja tupakkatuotteet."
+}
+
 for kategoria in kategoriat:
     kulut[kategoria] = col1.number_input(
         f"{kategoria}", min_value=0.0, value=0.0, step=50.0, key=f"kulut_{kategoria}"
     )
+    col1.caption(selitteet.get(kategoria, ""))
+
 
 # --- Palkka ---
 col2.subheader("Palkka (€)")
@@ -488,6 +502,7 @@ Sovelluksen inflaatiolaskenta perustuu Tilastokeskuksen viralliseen kuluttajahin
 
 
 """)
+
 
 
 
