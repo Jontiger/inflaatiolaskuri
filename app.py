@@ -536,7 +536,8 @@ Sovelluksen inflaatiolaskenta perustuu Tilastokeskuksen viralliseen kuluttajahin
 
 
 
-""")
+
+
 
 
 
