@@ -67,7 +67,7 @@ with st.expander("Mikä on inflaatio?"):
 
         ---
         **Miten voit reagoida inflaatioon?**
-        Alla muutamia käytännön esimerkkejä siitä, miten voit reagoida havaittuihin muutoksiin:
+        Inflaatiolta suojautuminen tapahtuu arjen päätöksillä ja hintojen seurannalla. Jos huomaat jonkun menosi hintojen nousevan voimakkaasti, voit esimerkiksi:
 
         - **Asuminen ja energia:** kilpailuta sähkösopimus tai tarkista lämmitystapasi kustannukset.  
         - **Ruoka:** seuraa tarjouksia ja suunnittele ruokalista etukäteen.  
@@ -536,6 +536,7 @@ Sovelluksen inflaatiolaskenta perustuu Tilastokeskuksen viralliseen kuluttajahin
 
 **Op-Media** - [Näin Suojaudut Ifnlaatiolta - Neljä Vinkkiä] - https://www.op-media.fi/omat-rahat/nain-suojaudut-inflaatiolta/
 """)
+
 
 
 
