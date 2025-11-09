@@ -54,17 +54,29 @@ st.markdown("<h1 class='center'>Inflaatiolaskuri</h1>", unsafe_allow_html=True)
 with st.expander("Mikä on inflaatio?"):
     st.markdown("""
         **Inflaatio** tarkoittaa yleistä hintatason nousua taloudessa.  
-        Kun hinnat nousevat, samalla rahalla saa vähemmän tuotteita ja palveluita kuin ennen.
+        Kun hinnat nousevat, samalla rahalla saa vähemmän tuotteita ja palveluita kuin ennen.  
+        Tämä tarkoittaa rahan ostovoiman heikkenemistä.
 
         Kaikki hinnat eivät kuitenkaan muutu samassa suhteessa.  
-        Esimerkiksi jos vuosi sitten sait 10 eurolla ostettua paketin kahvia ja sama summa ei enää riitä tänään, se johtuu kahvin hinnan noususta.  
-        Samalla on mahdollista, että 10 eurolla saa edelleen saman määrän jauhelihaa kuin aiemmin. Tämä osoittaa, että inflaatio vaikuttaa eri tuotteisiin eri tavoin.
+        Esimerkiksi jos vuosi sitten sait 10 eurolla ostettua paketin kahvia ja sama summa ei enää riitä tänään,  
+        se johtuu kahvin hinnan noususta. Samalla joku toinen tuote, kuten jauheliha, voi maksaa edelleen saman verran kuin ennen.  
+        Tämä osoittaa, että inflaatio vaikuttaa eri tuotteisiin eri tavoin.
 
-        **Miksi inflaatiota silti mitataan yhdellä prosenttiluvulla?**  
-        Yleinen inflaatio kuvaa kotitalouksien kulutuksen keskimääräistä hinnanmuutosta.  
-        Se lasketaan kuluttajahintaindeksin avulla, jossa eri hyödykkeille annetaan painoarvot sen mukaan, kuinka suuren osan ne vievät kotitalouksien kokonaiskuluista.  
-        Kun näiden hyödykkeiden hinnanmuutokset yhdistetään painojen mukaisesti, saadaan yksi prosenttiluku, joka kertoo, kuinka paljon hintataso on keskimäärin noussut koko taloudessa. Koko suomen talouden hintojen nouseminen ei tarkoita sitä, että juuri sinun menosi olisivat nousseet samalla tavalla.
+        Vaikka koko talouden hinnat olisivat nousseet, se ei tarkoita, että **sinun hinnat** olisivat nousseet samassa suhteessa.  
+        Siksi on hyödyllistä tarkastella inflaatiota henkilökohtaisesta näkökulmasta.
+
+        ---
+        ### Miten voit reagoida inflaatioon
+        Talouslukutaito ei tarkoita vain ymmärrystä numeroista, vaan myös kykyä toimia niiden pohjalta.  
+        Alla muutamia käytännön esimerkkejä siitä, miten voit reagoida havaittuihin muutoksiin:
+
+        - **Asuminen ja energia:** kilpailuta sähkösopimus tai tarkista lämmitystapasi kustannukset.  
+        - **Ruoka:** seuraa tarjouksia ja suunnittele ruokalista etukäteen.  
+        - **Liikkuminen:** arvioi, olisiko julkinen liikenne tai kimppakyyti edullisempi vaihtoehto.  
+        - **Säästäminen:** vaikka pienetkin kuukausittaiset säästöt auttavat ylläpitämään ostovoimaa pitkällä aikavälillä. 
+
     """)
+
 
 
 
@@ -525,6 +537,7 @@ Sovelluksen inflaatiolaskenta perustuu Tilastokeskuksen viralliseen kuluttajahin
 
 **Op-Media** - [Näin Suojaudut Ifnlaatiolta - Neljä Vinkkiä] - https://www.op-media.fi/omat-rahat/nain-suojaudut-inflaatiolta/
 """)
+
 
 
 
