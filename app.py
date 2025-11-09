@@ -522,7 +522,10 @@ Sovelluksen inflaatiolaskenta perustuu Tilastokeskuksen viralliseen kuluttajahin
 **Tilastokeskus** – [Kuluttajahintaindeksi (CPI)](https://stat.fi/tilasto/khi)  
 
 **Pohjola, Matti (2019).** *Taloustieteen oppikirja.* (s. 198)
+
+**Op-Media** - [Näin Suojaudut Ifnlaatiolta - Neljä Vinkkiä] - https://www.op-media.fi/omat-rahat/nain-suojaudut-inflaatiolta/
 """)
+
 
 
 
