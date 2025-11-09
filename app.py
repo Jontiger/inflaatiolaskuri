@@ -66,8 +66,7 @@ with st.expander("Mikä on inflaatio?"):
         Siksi on hyödyllistä tarkastella inflaatiota henkilökohtaisesta näkökulmasta.
 
         ---
-        ### Miten voit reagoida inflaatioon
-        Talouslukutaito ei tarkoita vain ymmärrystä numeroista, vaan myös kykyä toimia niiden pohjalta.  
+        ## Miten voit reagoida inflaatioon
         Alla muutamia käytännön esimerkkejä siitä, miten voit reagoida havaittuihin muutoksiin:
 
         - **Asuminen ja energia:** kilpailuta sähkösopimus tai tarkista lämmitystapasi kustannukset.  
@@ -537,6 +536,7 @@ Sovelluksen inflaatiolaskenta perustuu Tilastokeskuksen viralliseen kuluttajahin
 
 **Op-Media** - [Näin Suojaudut Ifnlaatiolta - Neljä Vinkkiä] - https://www.op-media.fi/omat-rahat/nain-suojaudut-inflaatiolta/
 """)
+
 
 
 
