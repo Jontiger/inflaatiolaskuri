@@ -57,7 +57,7 @@ with st.expander("Mikä on inflaatio?"):
         Kun hinnat nousevat, samalla rahalla saa vähemmän tuotteita ja palveluita kuin ennen.  
         Tämä tarkoittaa rahan ostovoiman heikkenemistä.
 
-        Kaikki hinnat eivät kuitenkaan muutu samassa suhteessa.  
+        **Kaikki hinnat eivät kuitenkaan muutu samassa suhteessa.**
         Esimerkiksi jos vuosi sitten sait 10 eurolla ostettua paketin kahvia ja sama summa ei enää riitä tänään,  
         se johtuu kahvin hinnan noususta. Samalla joku toinen tuote, kuten jauheliha, voi maksaa edelleen saman verran kuin ennen.  
         Tämä osoittaa, että inflaatio vaikuttaa eri tuotteisiin eri tavoin.
@@ -537,6 +537,7 @@ Sovelluksen inflaatiolaskenta perustuu Tilastokeskuksen viralliseen kuluttajahin
 
 **Op-Media** - [Näin Suojaudut Ifnlaatiolta - Neljä Vinkkiä] - https://www.op-media.fi/omat-rahat/nain-suojaudut-inflaatiolta/
 """)
+
 
 
 
