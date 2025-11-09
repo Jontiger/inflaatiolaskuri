@@ -73,7 +73,7 @@ with st.expander("Mikä on inflaatio?"):
         - **Ruoka:** seuraa tarjouksia ja suunnittele ruokalista etukäteen.  
         - **Liikkuminen:** arvioi, olisiko julkinen liikenne tai kimppakyyti edullisempi vaihtoehto.  
         - **Säästäminen:** vaikka pienetkin kuukausittaiset säästöt auttavat ylläpitämään ostovoimaa pitkällä aikavälillä. 
-        - **Puhelinliittymät ja muu viestintä:** tarkista säännöllisesti liittymäsi ja suoratoistopalvelusi hinnat, sillä kilpailuttamalla tai karsimalla turhat tilaukset voit pienentää menojasi ilman suurta vaikutusta arkeen.  
+        - **Puhelinliittymät ja internet:** kilpailuta liittymäsi ja nettipalvelusi säännöllisesti.  
 
     """)
 
@@ -537,6 +537,7 @@ Sovelluksen inflaatiolaskenta perustuu Tilastokeskuksen viralliseen kuluttajahin
 
 **Op-Media** - [Näin Suojaudut Ifnlaatiolta - Neljä Vinkkiä] - https://www.op-media.fi/omat-rahat/nain-suojaudut-inflaatiolta/
 """)
+
 
 
 
