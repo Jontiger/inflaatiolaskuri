@@ -526,7 +526,7 @@ sekä valitsemasi **kulutuskategoriat** ovat muuttuneet ajan myötä.
 Kaavion avulla näet, onko oma hintatason kehityksesi ollut nopeampaa vai hitaampaa kuin Suomen keskiarvo.  
 Voit piilottaa tai lisätä viivoja alla olevasta valikosta valitsemalla haluamasi kategoriat.
 
-Laskelma olettaa, että kulutuksesi rakenne pysyy samana koko tarkastelujakson ajan. Tämä tarkoittaa, että kategoriakohtaiset painot eivät muutu vaikka hinnat muuttuvat.
+Kaavio olettaa, että kulutuksesi rakenne pysyy samana koko tarkastelujakson ajann. Todellisuudessa kulusi eivät pysy aina samana, mitä laskelma ei pysty ottamaan huomioon.
 """)
 
 
@@ -540,6 +540,7 @@ Sovelluksen inflaatiolaskenta perustuu Tilastokeskuksen viralliseen kuluttajahin
 
 **Op-Media** - [Näin Suojaudut Ifnlaatiolta - Neljä Vinkkiä] - https://www.op-media.fi/omat-rahat/nain-suojaudut-inflaatiolta/
 """)
+
 
 
 
